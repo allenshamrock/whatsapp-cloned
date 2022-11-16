@@ -1,0 +1,56 @@
+.Signuppage {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--light);
+
+    h2 {
+        margin: 30px 0;
+        color: var(--teal-green);
+    }
+
+    .text {
+        text-align: center;
+
+
+        span {
+            color: var(--blue);
+
+        }
+
+       
+    }
+
+
+
+  
+
+    h4{
+        color:grey;
+    }
+
+
+    .phone {
+        width: 20%;
+        padding: 2%;
+        margin: 1px 0;
+    }
+
+    button{
+            padding: 10px;
+                text-transform: uppercase;
+                background-color:var(--teal-green);
+                border: none;
+                color: var(--light);
+                font-size: 10px;
+                margin-top: 10rem;
+                width: 4rem;
+                height: 2rem;
+                border-radius: var(--border-radius);
+                
+       }
+  }

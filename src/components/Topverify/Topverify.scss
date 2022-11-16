@@ -1,0 +1,25 @@
+.Top{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+
+    .arrow{
+        margin-right: 50px;
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 20px;
+        color: var(--teal-green);
+        text-transform: capitalize;
+        margin-right: 50px;
+        font-weight: 600;
+    }
+
+    .phoneMissed{
+        justify-content: center;
+        align-items: center;
+    }
+}

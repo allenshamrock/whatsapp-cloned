@@ -1,0 +1,41 @@
+.Inputbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--light);
+    background-color: grey;
+    height: 1.8rem;
+    margin-top: 240px;
+    height: 50px;
+    
+
+    input{
+        width: 300px; 
+        height: 50px;
+        width: 100%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        margin-right: auto;
+        margin-left: 2rem;
+        background-color: var(--dark);
+
+    }
+
+    .smile{
+        font-size: 30px;
+        // padding: 10px; 
+        // background-color: var(--dark);  
+    }
+    .Mic{
+    font-size: 30px;
+    margin-right: 3rem;
+    padding: 0;
+    }
+    .send{
+       font-size: 30px;
+       margin-right: 2rem;
+       padding: 0; 
+    }
+}

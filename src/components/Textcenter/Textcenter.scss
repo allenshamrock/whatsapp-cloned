@@ -1,0 +1,71 @@
+.Textcenter{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5px;
+    
+
+    .message-container{
+        height: 5rem;
+        background-color: var(--dark);
+        display: flex;
+         
+        cursor: pointer;
+        
+            &:hover {
+                background-color:var(--light);
+            }
+
+        img{
+            height: 4rem;
+            width: 4rem;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: .7rem;
+        }
+        .text-message{
+            display: flex;
+            flex-direction: column;
+            color: grey;
+            margin-left: 1rem;
+            // justify-content: center;
+            // align-items: center;
+            margin-top: 1.1rem;
+
+            h3{
+                color: var(--light);
+            }
+
+          
+               .ticks {
+               display: flex;
+            //    flex-direction: column;
+                  justify-content: flex-start;
+                  align-items: center;
+                
+                 
+
+                  .delivered{
+                    color: var(--dark);
+                  }
+
+                  .ticked{
+                    color: var(--blue);
+                    display: flex;
+                    margin-left: 20px;
+                    justify-content: flex-start;
+                    align-items: center;
+                  }
+             }
+
+        }
+
+        .message-timer{
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            color: var(--teal-green);
+            padding: 10px;
+        }
+       
+    }
+}

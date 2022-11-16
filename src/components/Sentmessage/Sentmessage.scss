@@ -1,0 +1,16 @@
+.Sentmessage{
+    // display: flex;
+    // flex-direction: column;
+    // max-height: fit-content;
+    p{
+        color: var(--dark);
+        margin-right: 10px;
+        height: 50px;
+        width: fit-content;
+        background-color: grey;
+        padding: 10px;
+        border-radius: var(--border-radius);
+        margin-top: 10px;
+        margin-left: auto;
+    }
+}
